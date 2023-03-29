@@ -9,7 +9,7 @@ const BackgroundImage: React.FC<Props> = ({ imageUrl, children }) => {
     backgroundImage: `url(${imageUrl})`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
-    minHeight: '70vh',
+    minHeight: '60vh',
   };
 
   return (
