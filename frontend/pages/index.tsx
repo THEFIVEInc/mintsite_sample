@@ -5,6 +5,7 @@ import Image from 'next/image';
 import Seo from './components/Seo';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import BackgroundImage from './components/BackgroundImage';
 
 const Home: NextPage = () => {
 
@@ -39,7 +40,7 @@ const Home: NextPage = () => {
       try{
         await (window as any).ethereum.request({
           method: 'wallet_switchEthereumChain',
-          params: [{ chainId: '0x5' }],
+          params: [{ chainId: '0x1' }],
         });
         const provider = await new ethers.providers.Web3Provider((window as any).ethereum);
         await provider.send('eth_requestAccounts', []);
@@ -52,14 +53,14 @@ const Home: NextPage = () => {
         await (window as any).ethereum.request({
           method: 'wallet_addEthereumChain',
           params: [{
-            chainId: '0x5',
-            chainName: 'goerli',
+            chainId: '0x1',
+            chainName: 'Ethereum',
             nativeCurrency: {
               name: 'ETH',
               symbol: 'ETH',
-              decimals: 5,
+              decimals: 1,
             },
-            rpcUrls: ['https://goerli.infura.io/v3/20cd5bade2c0407da65c6811cc2a1b37'],
+            rpcUrls: ['https://mainnet.infura.io/v3/8eed2e54a28c436cb91b0059772d1d72'],
           }],
         });
         console.log('try');
@@ -104,12 +105,13 @@ const Home: NextPage = () => {
       }
     };
     return <>
-    <div className="bg-black pb-16 flex flex-wrap buttom justify-center">
+    <BackgroundImage imageUrl="https://cdn.discordapp.com/attachments/1071406182239051877/1088983401354248212/half_trans_half_trans.png">
+    <div className="bg-transparent pb-16 flex flex-wrap buttom justify-center">
       <div className='px-8 pt-8 lg:px-28 lg:py-28'>
         <Image className="min-w-full" src="/main_grap.png" alt="Main Image" width={500} height={500}/>
       </div>
       <div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black text-center border-[#FFFFFF] bg-center bg-contain bg-no-repeat">
-        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">ETH MASKS NFT</h1>
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">WACF</h1>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']"> {mintNum} / 5000</h1>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-8 text-white font-['Impact']">3</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#99CDDB] font-['Impact'] ">MAX</a><br/>
         
@@ -134,14 +136,15 @@ const Home: NextPage = () => {
         MINT NOW</button>}
       </div>
     </div>
+    </BackgroundImage>
     </>
   }
 
   return (
     <div>
       <Seo
-          pageTitle={'ETH MASKS'}
-          pageDescription={'ETH MASKS'}
+          pageTitle={'WACF'}
+          pageDescription={'WACF'}
           pageImg={''}
           pageImgWidth={1920}
           pageImgHeight={1005}
