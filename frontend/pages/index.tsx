@@ -73,7 +73,7 @@ const Home: NextPage = () => {
       }
     }
     const mintQuantityPlus = async () =>{
-      if(mintQuantity == 3){
+      if(mintQuantity == 4){
         return;
       } else {
         setmintQuantity(mintQuantity + 1);
@@ -114,7 +114,8 @@ const Home: NextPage = () => {
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">Music for Room to Read</h1>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']"> {mintNum} / 800</h1>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-8 text-white font-['Impact']">4</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#99CDDB] font-['Impact'] ">MAX</a><br/>
-        
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">0.04 ETH</h1>
+
         <div className="pt-2 lg:pt-6 pb-7">
           <button type="button" className="text-2xl lg:text-3xl inline-flex flex-shrink-0 justify-center items-center gap-2 h-[1.375rem] w-[1.375rem] lg:h-[2.375rem] lg:w-[2.375rem]
           border-[#FFFFFF] border-transparent font-['Impact'] bg-[#99CDDB] text-[#FFFFFF] hover:text-[#99CDDB] hover:bg-[#FFFFFF] focus:outline-none focus:ring-2
