@@ -2,11 +2,11 @@ import Image from 'next/image'
 
 function Header() {
     return <header>
-            <nav className="max-w-full lg:pt-0 bg-black">
+            <nav className="max-w-full lg:pt-0 bg-WHITE">
                 <div className="grid grid-rows-12 grid-flow-col">
                 <a href="https://wacf.hp.peraichi.com/reikokamano_nft"target="_blank">
                     <div className='justify-front flex'>
-                    <img className="m-1" src="/logo.png" alt="LOGO" height="40" width="50" />
+                    <img className="m-1" src="/logo.png" alt="LOGO" height="150" width="54" />
                     </div>
                 </a>
                     <div className="justify-end px-2 flex">

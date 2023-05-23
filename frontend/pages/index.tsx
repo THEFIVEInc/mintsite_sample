@@ -105,7 +105,7 @@ const Home: NextPage = () => {
       }
     };
     return <>
-    <BackgroundImage imageUrl="https://cdn.discordapp.com/attachments/1071406182239051877/1088983401354248212/half_trans_half_trans.png">
+    <BackgroundImage imageUrl="http://thefive.co.jp/wp-content/uploads/background.jpg">
     <div className="bg-transparent pb-16 flex flex-wrap buttom justify-center">
       <div className='px-8 pt-8 lg:px-28 lg:py-28'>
         <Image className="min-w-full" src="/main_grap.png" alt="Main Image" width={500} height={500}/>
@@ -144,8 +144,8 @@ const Home: NextPage = () => {
   return (
     <div>
       <Seo
-          pageTitle={'WACF'}
-          pageDescription={'WACF'}
+          pageTitle={'AKUTAIKAN'}
+          pageDescription={'AKUTAIKAN'}
           pageImg={''}
           pageImgWidth={1920}
           pageImgHeight={1005}
