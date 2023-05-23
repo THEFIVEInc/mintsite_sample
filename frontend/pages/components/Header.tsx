@@ -11,7 +11,6 @@ function Header() {
                 </a>
                     <div className="justify-end px-2 flex">
                         <div className="bg-[url('/opensea_icon.png')] invisible md:visible px-2 pt-8 mx-1 bg-center bg-cover"><a className="px-2 py-4" href="https://opensea.io/assets/ethereum/0x240543a5d0a871f6412e540dd5a750813fbd70ad/1" target="_blank"></a></div>
-                        <div className="bg-[url('/twitter_icon.png')] invisible md:visible px-2 pt-8 mx-1 bg-center bg-cover"><a className="px-2 py-4" href="https://twitter.com/reikokamano" target="_blank"></a></div>
                     </div>
                 </div>
             </nav>
