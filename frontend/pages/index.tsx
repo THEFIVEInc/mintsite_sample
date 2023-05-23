@@ -107,10 +107,12 @@ const Home: NextPage = () => {
     return <>
     <BackgroundImage imageUrl="http://thefive.co.jp/wp-content/uploads/background-1.jpg">
     <div className="bg-transparent pb-16 flex flex-wrap buttom justify-center">
-      <div className='px-8 pt-8 lg:px-28 lg:py-28'>
-        <Image className="min-w-full" src="/main_grap.png" alt="Main Image" width={500} height={500}/>
-      </div>
-      <div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black text-center border-[#FFFFFF] bg-center bg-contain bg-no-repeat">
+    <div className='px-8 pt-8 lg:px-28 lg:py-28'>
+  <div style={{ marginTop: '10px' }}>
+    <Image className="min-w-full" src="/main_grap.png" alt="Main Image" width={500} height={500}/>
+  </div>
+</div>
+<div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black bg-opacity-50 text-center border-[#FFFFFF] bg-center bg-contain bg-no-repeat">
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">AKUTAIKAN</h1>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']"> {mintNum} / 800</h1>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-8 text-white font-['Impact']">4</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#99CDDB] font-['Impact'] ">MAX</a><br/>
