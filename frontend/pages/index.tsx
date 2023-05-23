@@ -112,7 +112,7 @@ const Home: NextPage = () => {
     <Image className="min-w-full" src="/main_grap.png" alt="Main Image" width={500} height={500}/>
   </div>
 </div>
-<div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black bg-opacity-25 text-center border-[#052ED9] bg-center bg-contain bg-no-repeat">
+<div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black bg-opacity-30 text-center border-[#052ED9] bg-center bg-contain bg-no-repeat">
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']">AKUTAIKAN</h1>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-6 text-white font-['Impact']"> {mintNum} / 800</h1>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-8 text-white font-['Impact']">4</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] ">MAX</a><br/>
