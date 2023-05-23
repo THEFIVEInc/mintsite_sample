@@ -130,7 +130,7 @@ const Home: NextPage = () => {
           +</button><br/>
         </div>
         { (!disabledFlag) && <button type="button" className="text-xl lg:text-2xl py-1 lg:py-3 px-12 lg:px-24 inline-flex justify-center items-center gap-2 rounded-full border border-transparent
-        bg-[#FFFFFF] border-yellow-200 font-['Impact'] text-[#052ED9] hover:yellow-500 hover:bg-[#052ED9] hover:text-[#FFFFFF] hover:border-[#FFFFFF]
+        bg-[#E1381D]  font-['Impact'] text-[#FFFFFF] hover:yellow-500 hover:bg-[#403940] hover:text-[#FFFFFF] hover:border-[#FFFFFF]
           focus:outline-none focus:ring-2 focus:ring-yellow-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800" onClick={() => addChain()}>
         CONNECT WALLET</button>}
         { (disabledFlag) && <button type="button" className="text-xl lg:text-2xl py-1 lg:py-3 px-12 lg:px-24 inline-flex justify-center items-center gap-2 rounded-full border border-transparent
