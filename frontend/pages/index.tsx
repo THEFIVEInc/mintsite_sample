@@ -105,7 +105,7 @@ const Home: NextPage = () => {
       }
     };
     return <>
-    <BackgroundImage imageUrl="http://thefive.co.jp/wp-content/uploads/background-1.jpg">
+    <BackgroundImage imageUrl="http://thefive.co.jp/wp-content/uploads/bg.png">
     <div className="bg-transparent pb-16 flex flex-wrap buttom justify-center">
     <div className='px-8 pt-8 lg:px-28 lg:py-28'>
   <div style={{ marginTop: '10px' }}>
@@ -113,17 +113,17 @@ const Home: NextPage = () => {
   </div>
 </div>
 <div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black bg-opacity-30 text-center border-[#052ED9] bg-center bg-contain bg-no-repeat">
-        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-0 text-white font-['Impact']">SEINA NFT</h1>
-        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-0 text-white font-['Impact']"> {mintNum} / 800</h1>
-        <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-0 text-white font-['Impact']">4</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] ">MAX</a><br/>
-        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-0 text-white font-['Impact']">0.04 ETH</h1>
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-2 text-white font-['Impact']">SEINA NFT</h1>
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-5 text-white font-['Impact']"> {mintNum} / 800</h1>
+        <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-2 text-white font-['Impact']">4</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] ">MAX</a><br/>
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-2 text-white font-['Impact']">0.04 ETH</h1>
 
-        <div className="pt-2 lg:pt-6 pb-7">
+        <div className="pt-2 lg:pt-6 pb-11">
           <button type="button" className="text-2xl lg:text-3xl inline-flex flex-shrink-0 justify-center items-center gap-2 h-[1.375rem] w-[1.375rem] lg:h-[2.375rem] lg:w-[2.375rem]
           border-[#FFFFFF] border-transparent font-['Impact'] bg-[#052ED9] text-[#FFFFFF] hover:text-[#052ED9] hover:bg-[#FFFFFF] focus:outline-none focus:ring-2
           focus:ring-[#052ED9] focus:ring-offset-2 transition-all  rounded-full dark:focus:ring-offset-gray-800" onClick={mintQuantityMinus}>
           -</button>
-          <a className="text-2xl lg:text-3xl px-8 lg:pt-6 lg:pb-6 text-white font-['Impact']">{mintQuantity}</a>
+          <a className="text-2xl lg:text-3xl px-8 lg:pt-6 lg:pb-8 text-white font-['Impact']">{mintQuantity}</a>
           <button type="button" className="text-2xl lg:text-3xl inline-flex flex-shrink-0 justify-center items-center gap-2 h-[1.375rem] w-[1.375rem] lg:h-[2.375rem] lg:w-[2.375rem]
           border-[#FFFFFF] border-transparent rounded-full font-['Impact'] bg-[#052ED9] text-[#FFFFFF] hover:text-[#052ED9] hover:bg-[#FFFFFF] 
           focus:outline-none focus:ring-2 focus:ring-[#052ED9] focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800" onClick={mintQuantityPlus}>
@@ -138,7 +138,6 @@ const Home: NextPage = () => {
           focus:outline-none focus:ring-2 focus:ring-yellow-200 focus:ring-offset-2 transition-all dark:focus:ring-offset-gray-800" onClick={() => nftMint()}>
         MINT NOW</button>}
         <div className="justify-center px-2 flex">
-                <a className="bg-center bg-cover bg-[url('/line_icon.png')]" style={{ width: '254px', height: '100px', marginTop: '0px' }} href="https://lin.ee/wu1LI9O" target="_blank"></a>
 </div>
       </div>
     </div>
