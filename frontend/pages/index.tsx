@@ -105,7 +105,7 @@ const Home: NextPage = () => {
       }
     };
     return <>
-    <BackgroundImage imageUrl="http://thefive.co.jp/wp-content/uploads/bg.png">
+    <BackgroundImage imageUrl="http://thefive.co.jp/wp-content/uploads/backgrand-e1689127269578.png">
     <div className="bg-transparent pb-16 flex flex-wrap buttom justify-center">
     <div className='px-8 pt-8 lg:px-28 lg:py-28'>
   <div style={{ marginTop: '10px' }}>
