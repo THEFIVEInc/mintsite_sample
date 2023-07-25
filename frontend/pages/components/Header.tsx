@@ -6,7 +6,7 @@ function Header() {
                 <div className="grid grid-rows-12 grid-flow-col">
                 <a href="https://www.samurai-studio.tokyo/seina/"target="_blank">
                     <div className='justify-front flex'>
-                    <img className="m-1" src="/logo.png" alt="LOGO" height="150" width="150" />
+                    <img className="m-1" src="/logo.png" alt="LOGO" height="200" width="200" />
                     </div>
                 </a>
                
