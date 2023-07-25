@@ -150,7 +150,7 @@ const Home: NextPage = () => {
     <div>
       <Seo
           pageTitle={'SEINA NFT'}
-          pageDescription={'SEINA NFT'}
+          pageDescription={'SEINA NFTのミントサイトです。'}
           pageImg={''}
           pageImgWidth={1920}
           pageImgHeight={1005}
