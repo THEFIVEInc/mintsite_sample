@@ -73,7 +73,7 @@ const Home: NextPage = () => {
       }
     }
     const mintQuantityPlus = async () =>{
-      if(mintQuantity == 4){
+      if(mintQuantity == 2){
         return;
       } else {
         setmintQuantity(mintQuantity + 1);
