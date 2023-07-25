@@ -115,7 +115,7 @@ const Home: NextPage = () => {
 <div className="m-12 lg:m-32 px-12 py-6 lg:pt-8 lg:px-20 border-2 bg-black bg-opacity-30 text-center border-[#052ED9] bg-center bg-contain bg-no-repeat">
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-2 text-white font-['Impact']">SEINA NFT</h1>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-5 text-white font-['Impact']"> {mintNum} / 333</h1>
-        <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-2 text-white font-['Impact']">AL2</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] "> MAX</a><br/>
+        <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-2 text-white font-['Impact']">AL</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] "> 2MAX</a><br/>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-2 text-white font-['Impact']">PUBLIC</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] "> Unlimited</a><br/>
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-2 text-white font-['Impact']">0.04 ETH</h1>
 
