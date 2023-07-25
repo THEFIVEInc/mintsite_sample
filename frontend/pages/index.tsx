@@ -117,7 +117,7 @@ const Home: NextPage = () => {
         <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-5 text-white font-['Impact']"> {mintNum} / 333</h1>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-2 text-white font-['Impact']">AL</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] "> 2MAX</a><br/>
         <a className="text-2xl lg:text-4xl pt-2 lg:pt-8 lg:pb-2 text-white font-['Impact']">PUBLIC</a><a className="text-2xl lg:text-3xl pt-2 lg:pt-8 lg:pb-8 text-[#052ED9] font-['Impact'] "> Unlimited</a><br/>
-        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-2 text-white font-['Impact']">0.04 ETH</h1>
+        <h1 className="text-2xl lg:text-4xl pt-2 lg:pt-4 lg:pb-2 text-white font-['Impact']">???? ETH</h1>
 
         <div className="pt-2 lg:pt-6 pb-11">
           <button type="button" className="text-2xl lg:text-3xl inline-flex flex-shrink-0 justify-center items-center gap-2 h-[1.375rem] w-[1.375rem] lg:h-[2.375rem] lg:w-[2.375rem]
