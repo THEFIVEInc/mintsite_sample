@@ -16,7 +16,7 @@ const Home: NextPage = () => {
     'function totalSupply() public view virtual override returns (uint256)',
     "function mint(uint _mintAmount) public payable",
   ]
-  const contractAddress = "0x240543a5d0a871f6412e540dd5a750813fbd70ad"
+  const contractAddress = ""
   useEffect(() => {
     const setSaleInfo = async() =>{
       const provider = await new ethers.providers.Web3Provider((window as any).ethereum);
@@ -60,7 +60,7 @@ const Home: NextPage = () => {
               symbol: 'ETH',
               decimals: 1,
             },
-            rpcUrls: ['https://mainnet.infura.io/v3/8eed2e54a28c436cb91b0059772d1d72'],
+            rpcUrls: ['https://mainnet.infura.io/v3/4b6dad592948471b9a0111272f1f5090'],
           }],
         });
         console.log('try');
